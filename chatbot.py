@@ -16,7 +16,7 @@ from typing import List, Dict, Optional
 class TerminalChatbot:
     def __init__(self, api_key: str = None):
         # Use the provided API key or default
-        self.api_key = api_key or "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"
+        self.api_key = api_key or "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"
         self.conversation_history: List[Dict[str, str]] = []
         self.api_url = "https://openrouter.ai/api/v1/chat/completions"
         self.model = "deepseek/deepseek-r1-0528:free"
